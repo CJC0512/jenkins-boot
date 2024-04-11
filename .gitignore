@@ -1,7 +1,7 @@
 HELP.md
 .gradle
 
-#.gitignore
+.gitignore
 
 # build 디렉토리 내 모든 것을 무시(libs 폴더 제외)
 build/classes/
