@@ -6,7 +6,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /* 설명. Rest-API 서버측에서 CORS 처리를 위한 설정 클래스 */
-
 @Configuration
 @EnableWebMvc
 public class WebConfig implements WebMvcConfigurer {
