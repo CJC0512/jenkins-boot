@@ -36,7 +36,7 @@ class CalculatorServiceTests {
     void testPlus(CalculatorDTO input) {
 
         // when
-        int expected = input.getNum1() + input.getNum2();
+        int expected = input.getNum1() + input.getNum2() + 1;
 
         // then
         int actual = calculatorService.plus(input);
